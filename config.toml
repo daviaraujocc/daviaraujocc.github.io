@@ -1,0 +1,34 @@
+baseURL = "https://daviaraujocc.github.io/"
+languageCode = "en-us"
+title = "Davi Araujo - Personal Portfolio"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+  author = "Davi Araujo"
+  description = "DevOps Engineer"
+  email = "davi.araujocc@outlook.com"
+  github = "https://github.com/daviaraujocc"
+  linkedin = "https://linkedin.com/in/daviaraujocc"
+  copyright = "2025 Davi Araujo. All Rights Reserved."
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "#home"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "#about"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "#projects"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 4
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

@@ -1,0 +1,27 @@
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-content">
+            <div class="contact-text">
+                <p>{{ .Params.contact.message | markdownify }}</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="{{ .Site.Params.github }}" target="_blank">github.com/daviaraujocc</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="{{ .Site.Params.linkedin }}" target="_blank">linkedin.com/in/daviaraujocc</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

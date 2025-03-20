@@ -1,0 +1,28 @@
+<section id="about" class="about">
+    <div class="container">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                {{ range .Params.about.paragraphs }}
+                <p>{{ . | markdownify }}</p>
+                {{ end }}
+                <div class="skills">
+                    <h3>My Skills</h3>
+                    <div class="skill-tags">
+                        {{ range .Params.skills }}
+                        <span>{{ . }}</span>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <div class="image-container">
+                    <img src="{{ .Params.about.image }}" alt="{{ .Site.Params.author }}">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
