@@ -1,9 +1,9 @@
 ---
 title: "Home"
 hero:
-  tagline: "I build things "
+  tagline: "I automate the boring stuff so you don't have to"
 about:
-  image: "https://avatars.githubusercontent.com/u/70732391?s=400&u=0c8d64ca33127fdc02a687e6ff16b6c7448d733d&v=4"
+  image: "/images/profile.png"
   paragraphs:
     - "Hello! I'm Davi Araujo, a passionate Devops Engineer with expertise in building and maintaining cloud infrastructure and applications."
     - "With a background in Computer Networks, I specialize in Kubernetes, Docker, and Terraform, and have experience working with AWS, Azure, and Google Cloud."
