@@ -32,37 +32,31 @@ skills:
 projects:
   - title: "LGTM Stack"
     description: "Implementation of the LGTM observability stack in a Kubernetes cluster."
-    image: "https://via.placeholder.com/600x400"
     technologies: ["Kubernetes", "Prometheus", "Grafana"]
     github: "https://github.com/daviaraujocc/lgtm-stack"
     live: "#"
   - title: "DNS Manager GKE"
     description: "Script/cron to synchronize external services created in Kubernetes with Google Cloud DNS."
-    image: "https://via.placeholder.com/600x400"
     technologies: ["Kubernetes", "Google Cloud DNS"]
     github: "https://github.com/daviaraujocc/dns-manager-gke"
     live: "#"
   - title: "Secret-Edit"
     description: "A simple CLI for editing secrets in GCP Secrets Manager in JSON format."
-    image: "https://via.placeholder.com/600x400"
     technologies: ["Golang", "GCP"]
     github: "https://github.com/daviaraujocc/secret-edit"
     live: "#"
   - title: "Food Genius AI"
     description: "Image classification system for food using AI, focused on efficiency and scalability."
-    image: "https://via.placeholder.com/600x400"
     technologies: ["Python", "PyTorch", "AI", "Docker", "Kubernetes"]
     github: "https://github.com/daviaraujocc/food-genius-ai"
     live: "#"
   - title: "RAG Docs"
     description: "A project implementing Retrieval-Augmented Generation (RAG) for querying and extracting insights from custom documentation."
-    image: "https://via.placeholder.com/600x400"
     technologies: ["Python", "PostgreSQL", "LLM", "RAG", "Docker", "FastAPI", "Kubernetes", "Helm"]
     github: "https://github.com/daviaraujocc/rag-docs"
     live: "#"
   - title: "Log Sense AI"
     description: "AI-powered log analysis using structured outputs."
-    image: "https://via.placeholder.com/600x400"
     technologies: ["Python", "LLM"]
     github: "https://github.com/daviaraujocc/log-sense-ai"
     live: "#"
