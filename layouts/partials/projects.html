@@ -7,9 +7,11 @@
         <div class="projects-grid">
             {{ range .Params.projects }}
             <div class="project-card">
+                {{ if and .image (ne .image "") }}
                 <div class="project-image">
                     <img src="{{ .image }}" alt="{{ .title }}">
                 </div>
+                {{ end }}
                 <div class="project-content">
                     <h3>{{ .title }}</h3>
                     <p>{{ .description }}</p>
